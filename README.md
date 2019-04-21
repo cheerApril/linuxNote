@@ -18,4 +18,4 @@
 <br> 一般服务器的选择都不会选择图形界面,因为单纯的作为服务器没必要增加界面相关的内存消耗,所以一般是选择telnet或者SSH,但是SSH在数据传输的会进行加密压缩
 <br> △Linux的FHS（Filesystem Hierarchy Standard），文件系统层次化标准，该标准规定了 Linux 系统中所有一级目录以及部分二级目录（/usr 和 /var）的用途。发布此标准的主要目的就是为了让用户清楚地了解每个目录应该存放什么类型的文件。
 <br> linxu:挂载 http://c.biancheng.net/view/2859.html
-1.Linux常用的命令
+<br> Linux 命令行格式 [root@localhost ~]# 命令[选项][参数] 命令的选项用于调整命令功能，而命令的参数是这个命令的操作对象
