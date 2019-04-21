@@ -1,6 +1,7 @@
 -# linuxNote(这份笔记是我看了:http://c.biancheng.net/linux_tutorial/ 入门教程之后的笔记而已,偶尔看到这个的话,可以进去学习下)
 <br>1.关于Linux:
 <br>  关于Linux的优缺点:http://c.biancheng.net/view/709.html
+<br> Linux 每个文件包括目录这些都是文件,在 Linux 中，默认 inode 的大小为 128 Byte，用于记录文件的权限（r、w、x）、文件的所有者和属组、文件的大小、文件的状态改变时间（ctime）、文件的最近一次读取时间（atime）、文件的最近一次修改时间（mtime）、文件中的数据真正保存的 block 编号。每个文件需要占用一个 inode。
 <br> Linux相关的版本:
 <br> A.Red Hat 公司的产品主要包括 RHEL（Red Hat Enterprise Linux，收费版本）和 CentOS（RHEL 的社区克隆版本，免费版本）、Fedora Core（由 Red Hat 桌面版发展而来，免费版本）。
 <br>Linux 发行版本的选择
@@ -82,3 +83,4 @@
 <br>2：代表"w"权限。
 <br>1：代表"x"权限。
 <br> chomd 755 [某个文件的文件名] 755 表示该文件所有者拥有RWX读写操作权限(4+2+1),权限组跟其他用户拥有读写权限(4+1=5);
+<br> 权限读.写.执行对于文件跟目录下操作区别还有正确理解 http://c.biancheng.net/view/757.html
